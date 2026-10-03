@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leitor — app pessoal</title>
+<style>
+  :root { --bg:#f6f4ef; --txt:#1f1d1a; --sub:#6b665d; --borda:#ddd8cc; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#17181b; --txt:#ecebe7; --sub:#a09d96; --borda:#33343a; } }
+  body { margin:0; background:var(--bg); color:var(--txt); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:48px 16px; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  h2 { font-size:20px; margin:36px 0 8px; padding-top:16px; border-top:1px solid var(--borda); }
+  p.sub, small { color:var(--sub); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Leitor</h1>
+  <p class="sub">Aplicativo pessoal de leitura de livros em PDF, de uso exclusivo de Kaique Oliveira.</p>
+  <p>O Leitor permite abrir livros guardados no Google Drive do próprio dono, marcar trechos e organizar
+     anotações. Não é um serviço público e não aceita cadastro de outras pessoas.</p>
+
+  <h2 id="privacidade">Política de privacidade</h2>
+  <p><strong>Quais dados o app acessa.</strong> Com autorização do dono da conta, o Leitor lê (somente leitura)
+     os arquivos de uma pasta específica do Google Drive dessa mesma conta, para exibir os livros.</p>
+  <p><strong>Como os dados são usados.</strong> Os arquivos são usados apenas para exibição ao próprio dono.
+     Nada é vendido, compartilhado com terceiros, usado para publicidade ou para treinar modelos de IA.</p>
+  <p><strong>Armazenamento.</strong> O app não guarda cópias dos livros. As credenciais de acesso ficam
+     apenas no servidor privado do dono.</p>
+  <p><strong>Revogação.</strong> O acesso pode ser revogado a qualquer momento em
+     <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+  <p><strong>Uso de dados do Google.</strong> O uso de informações recebidas das APIs do Google segue a
+     <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de dados do usuário dos serviços de API do Google</a>,
+     incluindo os requisitos de uso limitado.</p>
+  <p><small>Atualizado em 3 de outubro de 2026.</small></p>
+</main>
+</body>
+</html>
